@@ -1,0 +1,87 @@
+body {
+    /* margin: 0; */
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    background-color: #1F2937;
+    color: white;
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.randTxt {
+    color: #10B981;
+}
+
+.title {
+    font-weight: 1000;
+}
+
+.subText {
+    font-size: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-weight: 400;
+    background-color: #10B981;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.line {
+    margin-top: 50px;
+    background-color: #065F46;
+    
+}
+
+#passwordContainer {
+    /* padding: 20px; */
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pass {
+    background: #273549;
+    padding: 10px;
+    width: 500px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    color: #10B981;
+    cursor: pointer;
+}
+
+.passLength {
+    margin-top: 20px;
+}
+
+#pass-length {
+    width: 40px;
+}
+
+#maximum-alert {
+    color: red;
+}
+
+.copyAlert {
+    color: #10B981;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.copyAlert2 {
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
